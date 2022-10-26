@@ -9,8 +9,15 @@
     --body-color:#E5E5E5;
 }
 body {
-    background-color: var(--body-color);
+    background-color: var(--white-color);
     font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 1200;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .studio.current,
 .portfolio.current{
@@ -27,6 +34,15 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
 }
 .logo-link{
     font-family: 'Raleway';
@@ -77,7 +93,9 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
+.project{
+  padding: 20px 24px;
+}
 .contacts:hover,
 .contacts:focus {
    color: var(--Text-color);
@@ -144,7 +162,18 @@ body {
    background-color: var(--footer-color);
   text-align: center;
 }
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-img{
+  padding-bottom: 94px;
+}
 .decision{
+  padding-top: 200px;
+  padding-bottom: 30px;
+  
+
   color: var(--white-color);
   font-weight: 900;
   text-transform: uppercase;
@@ -164,6 +193,11 @@ body {
 
 }
 .order-but{
+    min-width: 216px;
+    min-height: 50px;
+    padding: 10px 32px;
+    margin-bottom: 200px;
+
     cursor: pointer;
     color: var(--white-color);
     background-color: var(--Text-color);
@@ -185,6 +219,9 @@ body {
   text-transform: uppercase;
 }
 .paragraph-text{
+  padding-top: 10px;
+  width: 270px;
+
   color: var(--paragraph-color);
   font-size: 14px;
   line-height: 1.71;
@@ -192,6 +229,11 @@ body {
 }
 .list{
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
 }
 .team{
   background-color: var(--light-grey-color);
@@ -208,12 +250,16 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .name-team{
+  padding-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .position-team{
+  padding-top: 10px;
+
   color: var(--paragraph-color);
   font-size: 16px;
   line-height: 1.18;
@@ -223,6 +269,9 @@ body {
     background-color: var(--footer-color);
 }
 /* Portfolio */
+.but-portfolio{
+  padding-bottom: 50px;
+}
 .all-but:hover,
 .all-but:focus {
   cursor: pointer; 
