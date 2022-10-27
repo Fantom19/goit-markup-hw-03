@@ -12,12 +12,16 @@ body {
     background-color: var(--white-color);
     font-family: 'Roboto', sans-serif;
 }
+.header{
+  border: 1px solid #ECECEC;
+}
 .container{
-  width: 1200;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 1200px; 
   margin-right: auto;
   margin-left: auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 .studio.current,
 .portfolio.current{
@@ -57,6 +61,9 @@ p{
     color:var(--dominant-text-color)
 }
 .logo-footer{ 
+    display: inline-block;
+    margin-top: 60px;
+
     font-family: 'Raleway';
     color: var(--Text-color);
     font-size: 26px;
@@ -95,6 +102,8 @@ p{
 }
 .project{
   padding: 20px 24px;
+  width: 370px;
+  border: 1px solid #EEEEEE;
 }
 .contacts:hover,
 .contacts:focus {
@@ -109,6 +118,9 @@ p{
   text-decoration: none;
 }
 .mailto-footer{
+  display: inline-block;
+  margin-top: 9px;
+
   color: var(--paragraph-color);
   font-weight: 500;
   font-size: 14px;
@@ -118,6 +130,10 @@ p{
   font-style: normal;
 }
 .tel-footer{
+  display: inline-block;
+  margin-top: 9px;
+  margin-bottom: 60px;
+
   color: var(--paragraph-color);
   font-weight: 500;
   font-size: 14px;
@@ -184,6 +200,9 @@ p{
 }
 .location:focus,
 .location{
+    display: inline-block;
+    margin-top: 20px;
+
     color: var(--white-color);
     font-style: normal;
     font-size: 14px;
@@ -247,6 +266,7 @@ img{
 }
 .separate-team{
   background-color: var(--white-color);
+  height: 368px;
   border-radius: 0px 0px 4px 4px;
 }
 .name-team{
