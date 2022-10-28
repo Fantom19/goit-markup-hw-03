@@ -49,6 +49,8 @@ p{
   margin: 0;
 }
 .logo-link{
+    margin-right: 93px;
+
     font-family: 'Raleway';
     color:var(--Text-color);
     font-size: 26px;
@@ -292,13 +294,8 @@ img{
 .but-portfolio{
   padding-bottom: 50px;
 }
-.all-but:hover,
-.all-but:focus {
-  cursor: pointer; 
-  color: var(--white-color);
-  background-color: var(--Text-color);
-}
-.all-but{
+
+.links{
   border-style: none;
   cursor: pointer;
   font-weight: 500;
@@ -307,66 +304,14 @@ img{
   letter-spacing: 0.03em;
   border-radius: 4px;
 }
-.websites-but:hover,
-.websites-but:focus {
+
+.links:hover,
+.links:focus{
   cursor: pointer;
   color: var(--white-color);
   background-color: var(--Text-color);
 }
-.websites-but{
-  border-style: none;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-}
-.applications-but:hover,
-.applications-but:focus {
-  cursor: pointer;
-  color: var(--white-color);
-  background-color: var(--Text-color);
-}
-.applications-but{
-    border-style: none;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    border-radius: 4px;
-}
-.design-but:hover,
-.design-but:focus {
-  cursor: pointer;
-  color: var(--white-color);
-  background-color: var(--Text-color);
-}
-.design-but{
-    border-style: none;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    border-radius: 4px;
-}
-.marketing-but:hover,
-.marketing-but:focus {
-  cursor: pointer;
-  color: var(--white-color);
-  background-color: var(--Text-color);
-}
-.marketing-but{
-  border-style: none;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-} 
+
 .item-link{
   text-decoration: none;
 }
@@ -382,4 +327,4 @@ img{
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
+}  
