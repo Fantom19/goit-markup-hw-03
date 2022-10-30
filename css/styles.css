@@ -50,7 +50,7 @@ img {
   margin-right: auto;
   margin-left: auto;
 
-  outline: 2px solid red;
+  
   outline-offset: -2px;
 }
 .studio.current,
@@ -307,6 +307,7 @@ img {
 }
 .separate-team{
   background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
 }
 .name-teams{
   padding:30px 0;
