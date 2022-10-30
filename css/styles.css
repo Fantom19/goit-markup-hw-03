@@ -71,6 +71,7 @@ img {
 }
 .text-sec{
   display: flex;
+  gap: 30px;
 }
 .logo-link{
     margin-right: 93px;
@@ -332,7 +333,8 @@ img {
 .but-portfolio{
   padding-bottom: 50px;
   display: flex;
-  
+  justify-content: center;
+  gap: 8px;
 
 }
 
