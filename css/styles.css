@@ -261,7 +261,7 @@ padding-bottom: 94px;
 }
 .paragraph-text{
   padding-top: 10px;
-  width: 270px;
+  
   
   
   color: var(--paragraph-color);
@@ -301,6 +301,13 @@ padding-bottom: 94px;
 }
 .card-set-itam{
   flex-basis: calc((100% - var(--indent) * var(--items) - 1 )) / (var(--indent));
+}
+.card-set-text{
+  flex-basis: calc((100% - 90px) / 4);
+}
+.card-text{
+  display: flex;
+  gap: 30px;
 }
 .separate-team{
   background-color: var(--white-color);
